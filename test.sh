@@ -21,6 +21,7 @@ while read -r test_case; do
 
   # Run the JavaScript code with the input values as arguments
   output=$(node script.js $gender $height $barReps $barSeconds $abs $runDistance $runTime $swimDistance $swimTime $diveTime)
+  
   # Compare the output with the expected output
   if [ "$output" = "$expected_output" ]; then
     # Output result in green if the test passed
