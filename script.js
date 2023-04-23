@@ -70,4 +70,4 @@ const areCandidateValid = areCandidateResultsValid(
 );
 
 // Chame aqui a função que mostra o resultado no console
-showMessage(areCandidateValid ? "TRUE" : "FALSE");
+showMessage(areCandidateValid.toString());
